@@ -80,7 +80,7 @@ Rather than waiting until I've mastered every topic, I'm documenting the entire 
 
 ## Connect With Me
 
-- LinkedIn: *(Add your LinkedIn profile here.)*
+- LinkedIn: *https://www.linkedin.com/in/pavanpusapati*
 
 ---
 
