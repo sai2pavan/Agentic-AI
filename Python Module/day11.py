@@ -6,7 +6,6 @@
 
 #if statement
 
-'''
 money = int(input("Enter the billing value :"))
 if money <= 100:
     print(f"now you are eligible to get your items")   
