@@ -70,4 +70,4 @@ for i in "codegnan":
 
 for i in range(10):
     pass
-    print('hello')
+    print('hi')
