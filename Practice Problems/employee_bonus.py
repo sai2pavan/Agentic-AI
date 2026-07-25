@@ -3,13 +3,13 @@ rating = int(input("Enter your rating:"))
 attendance = int(input("Enter your attendance:"))
 experience = int(input("Enter your experience:"))
 bonus = 0
-
-if rating == 5:
-    bonus = (salary * 1.25) - salary
-elif rating == 4:
-    bonus = (salary * 1.15) - salary
-elif rating == 3:
-    bonus = (salary * 1.1) - salary
+if rating >= 3:
+    if rating == 5:
+        bonus = (salary * 1.25) - salary
+    elif rating == 4:
+        bonus = (salary * 1.15) - salary
+    elif rating == 3:
+        bonus = (salary * 1.1) - salary
 
 if experience > 10:
     bonus += (salary * 1.1) - salary
