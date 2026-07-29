@@ -1,4 +1,4 @@
-#Day 19 --> Pass by value and Pass by Object Reference, Biult in functions
+#Day 19 --> Pass by value and Pass by Object Reference, Built in functions
 
 #Pass by value
 #Pass by object reference
