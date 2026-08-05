@@ -17,7 +17,6 @@ msg['From'] = frommail
 msg['To'] = tomail
 msg['Subject'] = subject
 msg.attach(MIMEText(message))
-
 text = msg.as_string()
 
 server = smtplib.SMTP('smtp.gmail.com',587)
