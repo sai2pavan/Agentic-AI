@@ -1,0 +1,2 @@
+yes w+ can allow both read and writeyes w+ can allow both read and writewhen using with keyword to access files, you dont need to specify a close()
+when using with keyword to access files, you dont need to specify a close()
