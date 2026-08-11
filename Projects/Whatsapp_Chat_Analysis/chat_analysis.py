@@ -345,7 +345,7 @@ def reply_ratio(messages):
 
     reply_count = 0
     for i in range(1, len(messages)):
-        previous_sender = messages[i - 1][0]  # index 0 of the tuple = user
+        previous_sender = messages[i - 1][0]
         current_sender = messages[i][0]
         if previous_sender == user_b and current_sender == user_a:
             reply_count += 1
@@ -354,12 +354,7 @@ def reply_ratio(messages):
 
 
 def delete_message(messages):
-    """Option 18: Ask for a message number and mark that message as deleted.
-
-    The message stays in the list (so message counts don't change) but
-    its text is replaced with "This message was deleted", the same way
-    WhatsApp shows a placeholder for a deleted message.
-    """
+    """Option 18: Deletes the content from the list of messages and replaces it with "this message is deleted"""
     if not messages:
         print("No messages to delete.")
         return
