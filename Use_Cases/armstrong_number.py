@@ -1,16 +1,18 @@
-start = int(input("Enter start of the range: "))
-end = int(input("Enter end of the range: "))
+number = input("Enter a number:")
+power = len(number)
+original = int(number)
+digitsum = 0
 
-for number in range(start, end + 1):
-    temp = number 
-    total = 0
-    power = len(str(number))
+for char in number:
+    digit = int(char)
+    digitsum += digit ** power
 
-    while temp > 0:
-        digit = temp % 10
-        total += digit ** power
-        temp = temp // 10 
+if digitsum == original:
+    print(f"{number} is an Armstrong number")
+else:
+    print(f"{number} is not an Armstrong number")
 
-    if total == number:
-        print(number, end=" ")
+
+
+
         
