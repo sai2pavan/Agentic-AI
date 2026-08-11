@@ -88,7 +88,7 @@ class Student:
     """student details of AAA batch"""
     batch = 'AAA-HYD-001'
     def __init__(self):
-        self.name = input('Enter the student's name:')
+        self.name = input('Enter the students name:')
         self.age = int(input("Enter your age:"))
         self.place = input("Enter your place:")
     def details(self):
