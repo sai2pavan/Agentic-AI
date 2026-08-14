@@ -22,14 +22,14 @@ This repository documents my daily progress through coding exercises, practice p
 ```
 Agentic AI
 │
-├── Python Module
-├── Advanced Python Module
-├── Gen AI
-├── RAG Architecture
-└── Agentic AI
+├── Python Module              ✅ In Progress
+├── Advanced Python Module     ⏳ Coming Soon
+├── Gen AI                     ⏳ Coming Soon
+├── RAG Architecture           ⏳ Coming Soon
+└── Agentic AI                 ⏳ Coming Soon
 ```
 
-As I complete each module, the corresponding code and projects will be added to this repository.
+As I progress through each module, the corresponding notes, practice programs, and projects will be added to this repository.
 
 ---
 
@@ -38,19 +38,21 @@ As I complete each module, the corresponding code and projects will be added to 
 ```
 Agentic-AI/
 │
+├── Projects/
+│   ├── Email Automation/
+│   ├── Function Bank/
+│   ├── Game Selector/
+│   ├── MovieMate/
+│   └── WhatsApp Chat Analysis/
+│
 ├── Python Module/
-│   ├── Day-01.py
-│   ├── Day-02.py
-│   ├── Day-03.py
+│   ├── day01.py
+│   ├── day02.py
+│   ├── day03.py
 │   └── ...
 │
-├── Advanced Python Module/
-│
-├── Gen AI/
-│
-├── RAG Architecture/
-│
-├── Agentic AI/
+├── Use_Cases/
+│   ├── ...
 │
 ├── README.md
 └── LICENSE
@@ -58,15 +60,41 @@ Agentic-AI/
 
 ---
 
+## Folder Overview
+
+### Projects/
+
+Contains complete Python projects built while applying concepts learned throughout the course.
+
+Current projects include:
+
+- Email Automation
+- Function Bank
+- Game Selector
+- MovieMate
+- WhatsApp Chat Analysis
+
+### Python Module/
+
+Contains my daily Python class notes, practice programs, and examples from the Python module of the course.
+
+### Use_Cases/
+
+Contains standalone Python programs and coding exercises used to strengthen my understanding of individual concepts.
+
+---
+
 ## What You'll Find Here
 
 - Daily Python practice
+- Class notes
 - Coding exercises
-- Learning notes
-- Mini projects
-- Generative AI implementations
-- RAG implementations
-- Agentic AI projects
+- Python use cases
+- Complete Python projects
+- Advanced Python projects *(coming soon)*
+- Generative AI implementations *(coming soon)*
+- RAG implementations *(coming soon)*
+- Agentic AI projects *(coming soon)*
 
 ---
 
@@ -80,7 +108,7 @@ Rather than waiting until I've mastered every topic, I'm documenting the entire 
 
 ## Connect With Me
 
-- LinkedIn: *https://www.linkedin.com/in/pavanpusapati*
+- LinkedIn: https://www.linkedin.com/in/pavanpusapati
 
 ---
 
