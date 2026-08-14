@@ -1,3 +1,5 @@
+#Day 28 --> Revision --> conditional statements
+
 def calculate_grade(marks):
     average = sum(marks) / len(marks)
 
