@@ -108,7 +108,11 @@ g = re.sub('food','agents',f)
 print(g)
 h = re.sub(r'\s','*',f)
 print(h)
-'''
+
 p = 'Agents,GENAI:RAG,Python'
 k = re.split(r'[,:]',p)
 print(k)
+'''
+
+my_list = [1, 2, 3]
+my_list
