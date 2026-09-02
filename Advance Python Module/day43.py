@@ -63,7 +63,8 @@ elif menu_choice == "ADD STUDENT":
         student_name = st.text_input("Enter Student Name:")
         branch = st.text_input("Enter Student Branch:")
         if st.button("ADD STUDENT"):
-            if not (college_names and roll_number and student_name and branch):                st.error("Please enter or  fill all the above information.")
+            if not (college_names and roll_number and student_name and branch):
+                st.error("Please enter or  fill all the above information.")
             else:
                 clg = find_college(college_names)
                 stu_obj = student(roll_number, student_name, branch) # creating a student class object
