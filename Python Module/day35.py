@@ -92,3 +92,29 @@ print(user2.__str__())
 #the dunder method definitions in the class can be overriden as per requirement
 '''
 
+#Abstraction --> it is the process of hiding unnexessary and only showing required data
+#use only with abc module (abstractmethod)
+#Instagram --> Upload photo, post reel, comment, etc
+
+from abc import ABC,abstractmethod
+
+class Content():
+    #@abstractmethod
+    def upload(self):
+        pass
+
+class photo(Content):
+    def upload(self):
+        print("Uploading photo")
+
+class video(Content):
+    def upload(self):
+        print("Uploading video")
+
+class reel(Content):
+    def upload(self):
+        print("Uploading Reel")
+
+contents = [photo(),video(),reel()]
+for content in contents:
+    content.upload()
